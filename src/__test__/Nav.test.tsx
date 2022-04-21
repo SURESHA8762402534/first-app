@@ -1,0 +1,32 @@
+import { screen,render, fireEvent } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
+import App from "../App";
+import Nav from "../component/Nav";
+
+it('app snap nav',()=>{
+    const tree = render(
+        <BrowserRouter>
+        <Nav navigate={()=>{}}/>
+        </BrowserRouter>
+    )
+    expect(tree).toMatchSnapshot()
+    const input = screen.getByRole("textbox");
+	fireEvent.change(input, { target: { value: "test" } });
+	const submitButton = screen.getByRole("button");
+		fireEvent.click(submitButton);
+})
+
+it('app snap nav func',()=>{
+    const mock = jest.fn()
+    render(
+        <BrowserRouter>
+        <Nav navigate={mock}/>
+        </BrowserRouter>
+    )
+    fireEvent.click(screen.getByRole('button'))
+    expect(mock).toMatchSnapshot()
+    expect(screen.getByRole('button')).toBeInTheDocument()
+    screen.debug()
+    expect(screen.getByRole('button')).toBeDisabled()
+})
+

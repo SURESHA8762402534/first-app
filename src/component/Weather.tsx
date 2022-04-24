@@ -7,10 +7,11 @@ import { useNavigate, useParams } from 'react-router-dom';
 const Weather = () => {
     const [data, setData]:any = useState<any>();
 const {capital} = useParams()
+const ACCESS_KEY = "34dfc907af1fc10c884c0f4073e9ee49"
 
 const fetchData = async()=>{
     try{
-        const res = await axios(`http://api.weatherstack.com/current?access_key=d81381e7f65ac20a3115570356e0a315&query=${capital}`)
+        const res = await axios(`http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=${capital}`)
         console.log(res);
         setData(res.data.current)
     }

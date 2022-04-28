@@ -1,15 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`app snap Weather 1`] = `
+exports[`country component test componet snap shot for contry componet 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div />
+      <div>
+        <button
+          class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1r3hetr-MuiButtonBase-root-MuiButton-root"
+          data-testid="home"
+          tabindex="0"
+          type="button"
+        >
+          HOME
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <div />
+    <div>
+      <button
+        class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1r3hetr-MuiButtonBase-root-MuiButton-root"
+        data-testid="home"
+        tabindex="0"
+        type="button"
+      >
+        HOME
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

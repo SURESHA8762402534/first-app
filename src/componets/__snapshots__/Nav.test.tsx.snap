@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`app snap nav 1`] = `
+exports[`nav test componet snap shot for nav 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -15,48 +15,22 @@ Object {
             <h5
               class="MuiTypography-root MuiTypography-h5 css-1f8a19r-MuiTypography-root"
             >
-              Weather Report
+              WETHER REPORT
             </h5>
             <form
               action=""
             >
-              <div
-                class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
-              >
-                <div
-                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
-                    id=":r0:"
-                    placeholder="enter country  name"
-                    type="text"
-                    value=""
-                  />
-                  <fieldset
-                    aria-hidden="true"
-                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
-                  >
-                    <legend
-                      class="css-hdw1oc"
-                    >
-                      <span
-                        class="notranslate"
-                      >
-                        ​
-                      </span>
-                    </legend>
-                  </fieldset>
-                </div>
-              </div>
+              <input
+                placeholder="enter country name"
+                style="height: 2rem;"
+                value=""
+              />
               <button
-                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root Mui-disabled  css-21yton-MuiButtonBase-root-MuiButton-root"
                 disabled=""
-                tabindex="-1"
+                style="height: 2.4rem;"
                 type="submit"
               >
-                Search
+                SEARCH
               </button>
             </form>
           </div>
@@ -75,48 +49,22 @@ Object {
           <h5
             class="MuiTypography-root MuiTypography-h5 css-1f8a19r-MuiTypography-root"
           >
-            Weather Report
+            WETHER REPORT
           </h5>
           <form
             action=""
           >
-            <div
-              class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
-            >
-              <div
-                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
-              >
-                <input
-                  aria-invalid="false"
-                  class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
-                  id=":r0:"
-                  placeholder="enter country  name"
-                  type="text"
-                  value=""
-                />
-                <fieldset
-                  aria-hidden="true"
-                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
-                >
-                  <legend
-                    class="css-hdw1oc"
-                  >
-                    <span
-                      class="notranslate"
-                    >
-                      ​
-                    </span>
-                  </legend>
-                </fieldset>
-              </div>
-            </div>
+            <input
+              placeholder="enter country name"
+              style="height: 2rem;"
+              value=""
+            />
             <button
-              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root Mui-disabled  css-21yton-MuiButtonBase-root-MuiButton-root"
               disabled=""
-              tabindex="-1"
+              style="height: 2.4rem;"
               type="submit"
             >
-              Search
+              SEARCH
             </button>
           </form>
         </div>
@@ -176,5 +124,3 @@ Object {
   "unmount": [Function],
 }
 `;
-
-exports[`app snap nav func 1`] = `[MockFunction]`;

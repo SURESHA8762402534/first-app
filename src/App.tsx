@@ -1,18 +1,16 @@
 import React from 'react'
-import { Route, Routes, useNavigate } from 'react-router-dom'
-import Country from './component/Country'
-import Nav from './component/Nav'
-import Weather from './component/Weather'
+import { Route, Routes } from 'react-router-dom'
+import Country from './componets/Country'
+import Nav from './componets/Nav'
+import Weather from './componets/Weather'
 
 const App = () => {
-  const navigate = useNavigate()
-
   return (
     <div>
-      <Nav navigate={navigate}/>
+      <Nav/>
       <Routes>
-        <Route path='/country/:country' element={<Country/>}/>
-        <Route path='/weather/:capital' element={<Weather/>}/>
+        <Route path='/country' element={<Country/>}/>
+        <Route path='/weather' element={<Weather/>}/>
       </Routes>
     </div>
   )
